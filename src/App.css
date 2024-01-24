@@ -40,3 +40,38 @@
 .read-the-docs {
   color: #888;
 }
+
+
+@font-face {
+  font-family: 'Climate';
+  src: url(../src/assets/font/ClimateCrisis-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Prompt-Light';
+  src: url(../src/assets/font/Prompt-Light.ttf);
+}
+
+/* @use '_font' as font; */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Prompt-Light';
+  margin: 0px auto;
+  text-align: center;
+  width: 100vw;
+  background-image: url(../src/assets/img/wim-van-t-einde-uj7eb7CgqRk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'Climate';
+}
