@@ -1,5 +1,3 @@
-// API Key 4cccc62d5ad215ed1ec698954798e7a2
-// https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'

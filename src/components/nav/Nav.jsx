@@ -5,9 +5,7 @@ const Nav = () => {
   return (
     <>
         <nav>
-            <Link to="/"><button>Wetter-App Home</button></Link>
-            <Link to="/"><button>Wetter-App Home</button></Link>
-
+            <Link to="/"><button>Weather-App Home</button></Link>
         </nav>
     </>
   )
