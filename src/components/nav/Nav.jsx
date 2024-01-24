@@ -6,6 +6,8 @@ const Nav = () => {
     <>
         <nav>
             <Link to="/"><button>Wetter-App Home</button></Link>
+            <Link to="/"><button>Wetter-App Home</button></Link>
+
         </nav>
     </>
   )

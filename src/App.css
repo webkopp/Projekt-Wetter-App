@@ -70,8 +70,14 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  color: rgba(7,7,7,0.7);
+  text-shadow: 1px 1px 1px rgba(7, 7, 7, 0.7);
 }
 
 h1 {
   font-family: 'Climate';
+}
+
+div {
+  background-color: rgba(231,231,231,0.7);
 }
