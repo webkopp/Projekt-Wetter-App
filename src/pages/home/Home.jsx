@@ -4,8 +4,10 @@ import Nav from '../../components/nav/Nav'
 const Home = () => {
   return (
     <>
-        <div>Wetter App</div>
-        <Nav />
+        <div>
+            <h1>Wetter App</h1>
+            <Nav />
+        </div>
     </>
   )
 }
